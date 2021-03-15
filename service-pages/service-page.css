@@ -1,0 +1,136 @@
+.service-video {
+  background: url('../images/video-service-photo\ \(black\).jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-photo {
+  background: url('../images/photo-service-photo\ \(black\).jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-audio {
+  background: url('../images/audio-service-photo2.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-web {
+  background: url('../images/web-service-photo.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-smm {
+  background: url('../images/smm-service-photo.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-live {
+  background: url('../images/live.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.service-page-back-to-main-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px 0 0 50px;
+}
+
+.service-page-back-to-main-button img {
+  width: 70px;
+}
+
+.service-page-logo-container {
+  margin: 40px 50px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.service-page-logo-container img {
+  width: 150px;
+}
+
+.service-page-heading {
+  width: max-content;
+  border: 3px solid #FFC700;
+  color: #fff;
+  font-size: 72px;
+  text-transform: uppercase;
+  padding: 30px 70px;
+}
+
+.service-about-text {
+  width: 65%;
+  text-align: center;
+  margin: 20px auto 0;
+}
+
+.section-heading h3 {
+  background:#ffc700;
+  color: #000;
+  padding: 10px;
+}
+
+.portfolio {
+  background: url('../images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.portfolio-container iframe {
+  margin-bottom: 10px;
+  width: 560px;
+  height: 315px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-item img {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid #ffc700;
+  margin-bottom: 5px;
+}
+
+.portfolio-item.smm img {
+  border-radius: 50%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolio-item a {
+  font-size: 20px;
+  border: 2px solid #fff;
+  width: max-content;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-item a:hover {
+  color: #ffc700;
+}
+

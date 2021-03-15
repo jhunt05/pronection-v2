@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+/* Header */
+
+.header {
+  background: url('./images/header-photo.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content h2 {
+  color: #c5c5c5;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Main Menu */
+
+.main-menu {
+  height: 50px;
+  background-color: #ddad00;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: #D4A600;
+}
+
+/* Common section rules */
+
+.section {
+  padding: 50px;
+  padding-bottom: 90px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+}
+
+.section-heading img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.section-heading h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.white-heading h3 {
+  color: #fff;
+}
+
+.black-section {
+  background-color: #222;
+}
+
+/* Section "Who" */
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-who-text {
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Section "What" */
+
+.services-grid {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  position: relative;
+}
+
+.service-container {
+  background-color: #fff;
+  width: 300px;
+  border: 1px solid silver;
+  transition: transform 1s;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.service-container:nth-child(1) {
+  left: 4%;
+}
+
+.service-container:nth-child(3) {
+  right: 4%;
+}
+
+.service-container:nth-child(4) {
+  left: 4%;
+}
+
+.service-container:nth-child(6) {
+  right: 4%;
+}
+
+.top-container {
+  z-index: 20;
+}
+
+.bottom-container {
+  top: 190px;
+  z-index: 10;
+}
+
+.service-container:hover {
+  transform: scale(1.05);
+}
+
+.service-container:hover .service-moreInfo {
+  opacity: 1;
+  height: auto;
+}
+
+.service-container:hover .arrow-down {
+  display: none;
+}
+
+.service-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.service-heading img {
+  width: 70px;
+  margin-right: 15px;
+  height: 70px;
+}
+
+.service-heading span {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+} 
+
+.service-more-arrow {
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.service-moreInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.service-moreInfo ul {
+  padding: 0;
+}
+
+.service-moreInfo a {
+  background: #FFC700;
+  border: 1px solid #FFC700;
+  color: #fff;
+  text-transform: uppercase;
+  width: 220px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.service-moreInfo a:hover {
+  border: 1px solid #FFC700;
+  background-color: #fff;
+  color: #FFC700;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+  margin-top: 50px;
+}
+
+/* Section "To whom" */
+
+.consumers-list {
+  margin-top: 40px;
+}
+
+.consumers-list div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.consumers-list div p {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.consumers-list div img {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.photo1 {
+  background: url('./images/whom-block-photo3.jpg') no-repeat;
+  background-size: cover;
+}
+
+/* Section "How Much" */
+
+.how-much-section-text {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  width: 535px;
+}
+
+.how-much-section-request-text-container {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: -45px;
+}
+
+.how-much-section-request-text-container span {
+  width: max-content;
+}
+
+.how-much-section-request-text-container img {
+  width: 90px;
+  height: 90px;
+  margin: 6px 0 0 6px;
+}
+
+/* Request block */
+
+.request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.request-form input {
+  border: none;
+  border-bottom: 1px solid silver;
+  height: 40px;
+  width: 340px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.request-form input:focus {
+  border-color: #FFC700;
+}
+
+.request-form button {
+  width: 200px;
+  height: 45px;
+  background-color: #FFC700;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 15px;
+  border: 1px solid #FFC700;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.request-form button:hover {
+  background-color: #fff;
+  color: #FFC700;
+  border: 1px solid #FFC700;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #222;
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 234px;
+}
+
+.contacts-container {
+  display: flex;
+  width: 350px;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+.contacts-container h3 {
+  font-size: 40px;
+  margin: 5px 0 10px;
+}
+
+.contacts-container span {
+  font-size: 20px;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links img {
+  width: 50px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.social-links img:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+.social-links a {
+  text-decoration: none;
+}

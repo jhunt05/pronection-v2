@@ -1,0 +1,122 @@
+/* width 300px to 1024px */
+
+@media (min-width: 300px) and (max-width: 1036px) {
+  /* Header */
+
+  .header {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header-content img {
+    width: 300px;
+  }
+  
+  .header-content h2 {
+    font-size: 18px;
+    width: 250px;
+    text-align: center;
+  }
+
+  /* Menu */
+
+  .main-menu {
+    display: none;
+  }
+
+  #what-section {
+    height: 1400px;
+  }
+
+  .services-grid {
+    min-height: 2000px;
+  }
+
+  .service-container:nth-child(1) {
+    z-index: 23;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .service-container:nth-child(2) {
+    top: 10%;
+    z-index: 22;
+  }
+
+  .service-container:nth-child(3) {
+    z-index: 21;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .service-container:nth-child(4) {
+    top: 30%;
+    z-index: 15;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .service-container:nth-child(5) {
+    top: 40%;
+    z-index: 14;
+  }
+
+  .service-container:nth-child(6) {
+    top: 50%;
+    z-index: 13;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Section "How Much" */
+
+  .how-much-section-text {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  /* Request block */
+
+  .request-form input {
+    width: 270px;
+  }
+
+  /* Footer */
+
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 120px;
+    margin: 30px 0;
+  }
+
+  .contacts-container {
+    margin-top: 30px;
+    width: 280px;
+  }
+}
+
+/* width 1270px */
+
+@media (min-width: 1037px) and (max-width: 1270px) {
+  .service-container:nth-child(1) {
+    left: -7%;
+  }
+  
+  .service-container:nth-child(3) {
+    right: -7%;
+  }
+  
+  .service-container:nth-child(4) {
+    left: -7%;
+  }
+  
+  .service-container:nth-child(6) {
+    right: -7%;
+  }
+}
